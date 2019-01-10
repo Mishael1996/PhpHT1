@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Charm");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+body {
+  background-color: silver; }
+  body .badge {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; }
+    body .badge .card {
+      box-shadow: 0 2px 15px 6px;
+      display: flex;
+      width: 69vh;
+      height: 31%;
+      background-image: url(http://www.ubuntu-ast.org/largeimages/29/296217_black-slate-wallpaper.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      body .badge .card .left-size {
+        margin: 14% 4% 0 8%;
+        flex-direction: column; }
+        body .badge .card .left-size .fio {
+          width: 100%;
+          color: darkorange;
+          justify-content: center;
+          font-size: 31px;
+          font-family: 'Charm', cursive;
+          margin-bottom: 5%; }
+        body .badge .card .left-size .contacts {
+          margin: 3%;
+          color: #006666; }
+          body .badge .card .left-size .contacts .gmail {
+            padding-bottom: 2%;
+            font-size: 20px;
+            font-family: 'Source Code Pro', monospace; }
+          body .badge .card .left-size .contacts .phone {
+            font-size: 20px;
+            font-family: 'Source Code Pro', monospace; }
+      body .badge .card .right-size {
+        margin-top: 9%; }
+        body .badge .card .right-size img {
+          width: 200px; }
